@@ -1,0 +1,27 @@
+{
+    "name": "rossicampos/bladecomponents",
+    "description": "Blade components",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bráulio Campos",
+            "email": "braulio@rossicampos.com.br"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Rossicampos\\BladeComponents\\": "src/"
+        }
+    },
+    "require-dev": {
+        "laravel/framework": "*"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Rossicampos\\BladeComponents\\BladeComponentsServiceProvider"
+            ]
+        }
+    }
+}
